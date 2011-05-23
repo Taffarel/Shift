@@ -8,7 +8,7 @@ Class AppController extends Controller{
 	/*
 	 * Método SessionUsuario
 	 * @param $data
-	 * @proteced 
+	 * @protected 
 	 */
 	function _sessionUsuario($data){
 		if($data['Usuario']['admin'] == 1){
